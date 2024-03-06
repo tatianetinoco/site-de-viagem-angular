@@ -1,0 +1,42 @@
+.content-all{
+    padding: 50px 0;
+}
+
+.cards-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#card-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 45px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.cards-box{
+    width: 350px;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.card-text{
+    font-size: 1.25rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.bi{
+    color: #bcbcbc;
+}
