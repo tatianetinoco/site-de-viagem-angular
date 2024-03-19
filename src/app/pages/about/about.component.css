@@ -1,0 +1,16 @@
+.content-all {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.content-all h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.content-all p{
+    margin-bottom: 1.5rem;
+}
