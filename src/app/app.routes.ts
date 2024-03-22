@@ -4,11 +4,13 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AmericaComponent } from './pages/america/america.component';
 import { EuropaComponent } from './pages/europa/europa.component';
+import { AsiaComponent } from './pages/asia/asia.component';
 
 export const routes: Routes = [
     {path:'', title: "Home", component:HomeComponent},
     {path:'sobre', title: "Sobre", component:AboutComponent},
     {path:'contato', title: "Contato", component:ContactComponent},
     {path:'america', title:"Américas", component:AmericaComponent},
-    {path:'europa', title:"Europa", component:EuropaComponent}
+    {path:'europa', title:"Europa", component:EuropaComponent},
+    {path:'asia', title:"Ásia", component:AsiaComponent}
 ];
