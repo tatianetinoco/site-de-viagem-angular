@@ -5,6 +5,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AmericaComponent } from './pages/america/america.component';
 import { EuropaComponent } from './pages/europa/europa.component';
 import { AsiaComponent } from './pages/asia/asia.component';
+import { AfricaComponent } from './pages/africa/africa.component';
 
 export const routes: Routes = [
     {path:'', title: "Home", component:HomeComponent},
@@ -12,5 +13,6 @@ export const routes: Routes = [
     {path:'contato', title: "Contato", component:ContactComponent},
     {path:'america', title:"Américas", component:AmericaComponent},
     {path:'europa', title:"Europa", component:EuropaComponent},
-    {path:'asia', title:"Ásia", component:AsiaComponent}
+    {path:'asia', title:"Ásia", component:AsiaComponent},
+    {path:'africa', title:"África", component:AfricaComponent}
 ];
