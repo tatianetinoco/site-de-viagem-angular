@@ -1,8 +1,23 @@
 .footer{
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(241, 241, 241); */
+    background-color: rgb(24, 24, 24);
+    color: rgb(74, 74, 74);
 }
+
+h5{
+    color: gray;
+}
+
+a{
+    color: rgb(74, 74, 74);
+}
+
+a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
 
 .btn{
     background-color: rgb(2, 132, 219);
 }
-
