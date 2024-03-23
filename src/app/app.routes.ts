@@ -7,6 +7,7 @@ import { EuropaComponent } from './pages/europa/europa.component';
 import { AsiaComponent } from './pages/asia/asia.component';
 import { AfricaComponent } from './pages/africa/africa.component';
 import { OceaniaComponent } from './pages/oceania/oceania.component';
+import { AntartidaComponent } from './pages/antartida/antartida.component';
 
 export const routes: Routes = [
     {path:'', title: "Home", component:HomeComponent},
@@ -16,5 +17,6 @@ export const routes: Routes = [
     {path:'europa', title:"Europa", component:EuropaComponent},
     {path:'asia', title:"Ásia", component:AsiaComponent},
     {path:'africa', title:"África", component:AfricaComponent},
-    {path:'oceania', title:"Oceania", component:OceaniaComponent}
+    {path:'oceania', title:"Oceania", component:OceaniaComponent},
+    {path:'antartida', title:"Antártida", component:AntartidaComponent}
 ];

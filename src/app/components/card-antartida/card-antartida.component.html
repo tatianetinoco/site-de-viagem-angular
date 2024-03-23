@@ -1,0 +1,39 @@
+<h2>Escolha Um Destino</h2>
+
+<section class="cards-container">
+
+    <div class="card-content" *ngFor="let item of cardAntartida">
+
+        <img class="card-img" [src]="item.img" alt="">
+        <div class="card-container-item">
+            <h3 class="card-title">{{item.titulo}}</h3>
+            <p><i class="bi bi-clock"></i> {{item.dia}}</p>
+            <div class="card-descricao">
+                <p><i class="bi bi-check2"></i> {{item.paragrafo1}}</p>
+                <p><i class="bi bi-check2"></i> {{item.paragrafo2}}</p>
+                <p><i class="bi bi-check2"></i> {{item.paragrafo3}}</p>
+            </div>
+    
+            <div class="card-preco-container">
+                <p class="card-preco">{{item.preco | currency: 'BRL'}}</p>
+                <div class="card-stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </div>
+            <button class="card-btn">Comprar</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
